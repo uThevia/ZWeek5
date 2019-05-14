@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RateCalculate">
+
+    <!--显示国家货币名称-->
+    <TextView
+        android:id="@+id/textViewCountry_RateCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <!--输入人民币金额-->
+    <EditText
+        android:id="@+id/editView_RateCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:inputType="numberDecimal"
+        android:hint="0"
+        android:textSize="20dp" />
+
+    <!--显示该货币金额-->
+    <TextView
+        android:id="@+id/textViewRate_RateCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please input."
+        android:textSize="20dp"
+        android:gravity="left"
+        />
+</LinearLayout>

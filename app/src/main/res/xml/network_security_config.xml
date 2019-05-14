@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--使得APP可以访问非https网站-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ZWeek5</string>
+
+
+    <string name="hint_txt">Input your name</string>
+    <string name="btn_dollar_label">Dollar</string>
+    <string name="btn_euro_label">Euro</string>
+    <string name="btn_won_label">Won</string>
+    <string name="rmb_hint">Input RMB</string>
+    <string name="btn_config">Config</string>
+    <string name="btn_save">Save</string>
+    <string name="menu_set_label">SetRate</string>
+    <string name="open_list">open_list</string>
+    <string name="open_list_label">OpenList</string>
+    <string name="my_rate_list">MyRateList</string>
+</resources>
