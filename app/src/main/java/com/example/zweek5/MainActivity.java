@@ -27,7 +27,7 @@ import java.util.Date;
 
 public class MainActivity extends AppCompatActivity implements Runnable{ //多线程run
 
-    private int num =4 ;
+    private int num =2 ;
     private final String TAG ="MainActivity";
     EditText input;
     TextView output;
